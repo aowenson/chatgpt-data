@@ -1,0 +1,1387 @@
+"Kernel","Metric Name","Metric Description","Min","Max","Avg"
+"row_sums__one_block_per_chunked_rows__write_buffer","sm_efficiency","Multiprocessor Activity",99.265166%,99.529055%,99.357464%
+"row_sums__one_block_per_chunked_rows__write_buffer","achieved_occupancy","Achieved Occupancy",0.997923,0.998304,0.998069
+"row_sums__one_block_per_chunked_rows__write_buffer","ipc","Executed IPC",1.259415,1.261600,1.260334
+"row_sums__one_block_per_chunked_rows__write_buffer","issued_ipc","Issued IPC",1.257785,1.265311,1.261674
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_per_warp","Instructions per warp",165746.000000,165746.000000,165746.000000
+"row_sums__one_block_per_chunked_rows__write_buffer","branch_efficiency","Branch Efficiency",99.943733%,99.943733%,99.943733%
+"row_sums__one_block_per_chunked_rows__write_buffer","warp_execution_efficiency","Warp Execution Efficiency",99.958370%,99.958370%,99.958370%
+"row_sums__one_block_per_chunked_rows__write_buffer","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",86.984339%,86.984341%,86.984341%
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_replay_overhead","Instruction Replay Overhead",0.000028,0.000030,0.000029
+"row_sums__one_block_per_chunked_rows__write_buffer","issue_slot_utilization","Issue Slot Utilization",25.761622%,25.915772%,25.841270%
+"row_sums__one_block_per_chunked_rows__write_buffer","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",0.175227,0.175227,0.175227
+"row_sums__one_block_per_chunked_rows__write_buffer","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",0.198479,0.198479,0.198479
+"row_sums__one_block_per_chunked_rows__write_buffer","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__write_buffer","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__write_buffer","gst_transactions_per_request","Global Store Transactions Per Request",2.000000,2.000000,2.000000
+"row_sums__one_block_per_chunked_rows__write_buffer","shared_store_transactions","Shared Store Transactions",624768,624768,624768
+"row_sums__one_block_per_chunked_rows__write_buffer","shared_load_transactions","Shared Load Transactions",967680,967680,967680
+"row_sums__one_block_per_chunked_rows__write_buffer","local_load_transactions","Local Load Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","local_store_transactions","Local Store Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","gst_transactions","Global Store Transactions",2048,2048,2048
+"row_sums__one_block_per_chunked_rows__write_buffer","dram_read_transactions","Device Memory Read Transactions",33701430,33776988,33747491
+"row_sums__one_block_per_chunked_rows__write_buffer","dram_write_transactions","Device Memory Write Transactions",4102,17396,8536
+"row_sums__one_block_per_chunked_rows__write_buffer","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","gld_requested_throughput","Requested Global Load Throughput",158.004217GB/s,158.176291GB/s,158.085130GB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","gst_requested_throughput","Requested Global Store Throughput",9.875263MB/s,9.886018MB/s,9.880320MB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","gld_throughput","Global Load Throughput",158.004217GB/s,158.176291GB/s,158.085130GB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","gst_throughput","Global Store Throughput",9.875263MB/s,9.886018MB/s,9.880320MB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","dram_read_throughput","Device Memory Read Throughput",158.803380GB/s,159.180002GB/s,158.994689GB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","dram_write_throughput","Device Memory Write Throughput",19.795350MB/s,83.924956MB/s,41.182474MB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","tex_cache_throughput","Unified Cache Throughput",158.004217GB/s,158.176291GB/s,158.085130GB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__write_buffer","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__write_buffer","shared_load_throughput","Shared Memory Load Throughput",18.226805GB/s,18.246655GB/s,18.236139GB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","shared_store_throughput","Shared Memory Store Throughput",11.767862GB/s,11.780677GB/s,11.773888GB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","gst_efficiency","Global Memory Store Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__write_buffer","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__write_buffer","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__write_buffer","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__write_buffer","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_chunked_rows__write_buffer","special_fu_utilization","Special Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__write_buffer","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (3)","Low (3)","Low (3)"
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_sp","Floating Point Operations(Single Precision)",276807680,276807680,276807680
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_sp_add","Floating Point Operations(Single Precision Add)",276807680,276807680,276807680
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_count_sp_special","Floating Point Operations(Single Precision Special)",32768,32768,32768
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed","Instructions Executed",169723904,169723904,169723904
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_issued","Instructions Issued",169728461,169728973,169728792
+"row_sums__one_block_per_chunked_rows__write_buffer","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"row_sums__one_block_per_chunked_rows__write_buffer","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__write_buffer","shared_efficiency","Shared Memory Efficiency",67.008530%,67.008530%,67.008530%
+"row_sums__one_block_per_chunked_rows__write_buffer","shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_fp_32","FP Instructions(Single)",276840448,276840448,276840448
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_fp_64","FP Instructions(Double)",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_integer","Integer Instructions",3045803008,3045803008,3045803008
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_bit_convert","Bit-Convert Instructions",65536,65536,65536
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_control","Control-Flow Instructions",889487360,889487360,889487360
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_compute_ld_st","Load/Store Instructions",394314816,394314816,394314816
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_misc","Misc Instructions",117751808,117751808,117751808
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_inter_thread_communication","Inter-Thread Instructions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","issue_slots","Issue Slots",139053343,139053764,139053625
+"row_sums__one_block_per_chunked_rows__write_buffer","cf_issued","Issued Control-Flow Instructions",37769216,37769216,37769216
+"row_sums__one_block_per_chunked_rows__write_buffer","cf_executed","Executed Control-Flow Instructions",37769216,37769216,37769216
+"row_sums__one_block_per_chunked_rows__write_buffer","ldst_issued","Issued Load/Store Instructions",47471616,47471616,47471616
+"row_sums__one_block_per_chunked_rows__write_buffer","ldst_executed","Executed Load/Store Instructions",24926208,24926208,24926208
+"row_sums__one_block_per_chunked_rows__write_buffer","atomic_transactions","Atomic Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_shared_loads","Warp level instructions for shared loads",5522432,5522432,5522432
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_global_stores","Warp level instructions for global stores",1024,1024,1024
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_shared_stores","Warp level instructions for shared stores",3147776,3147776,3147776
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","dram_read_bytes","Total bytes read from DRAM to L2 cache",1078445760,1080863616,1079919712
+"row_sums__one_block_per_chunked_rows__write_buffer","dram_write_bytes","Total bytes written from L2 cache to DRAM",131264,556672,273162
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",65536,65536,65536
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__write_buffer","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","global_store_requests","Total number of global store requests from Multiprocessor",2048,2048,2048
+"row_sums__one_block_per_chunked_rows__write_buffer","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",3.023844%,3.039903%,3.032006%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",7.488075%,7.518200%,7.502661%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_memory_dependency","Issue Stall Reasons (Data Request)",76.415387%,76.610943%,76.501200%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_sync","Issue Stall Reasons (Synchronization)",6.889294%,7.063107%,6.979191%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_other","Issue Stall Reasons (Other)",4.858047%,4.890995%,4.876430%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.005880%,0.010786%,0.006887%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.422935%,0.424194%,0.423650%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.000012%,0.000012%,0.000012%
+"row_sums__one_block_per_chunked_rows__write_buffer","stall_not_selected","Issue Stall Reasons (Not Selected)",0.675793%,0.679293%,0.677963%
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_read_transactions","L2 Read Transactions",33764099,33822347,33791388
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_write_transactions","L2 Write Transactions",2054,2054,2054
+"row_sums__one_block_per_chunked_rows__write_buffer","ecc_transactions","ECC Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","tex_cache_hit_rate","Unified Cache Hit Rate",50.000000%,50.000000%,50.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_tex_read_throughput","L2 Throughput (Texture Reads)",158.004217GB/s,158.176291GB/s,158.085130GB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_tex_write_throughput","L2 Throughput (Texture Writes)",9.875263MB/s,9.886018MB/s,9.880320MB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_tex_write_transactions","L2 Transactions (Texture Writes)",2048,2048,2048
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_read_throughput","L2 Throughput (Reads)",159.056783GB/s,159.439248GB/s,159.201503GB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_write_throughput","L2 Throughput (Writes)",9.904195MB/s,9.914981MB/s,9.909266MB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_write_throughput","System Memory Write Throughput",24.687500KB/s,24.714844KB/s,24.700195KB/s
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__write_buffer","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__write_buffer","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,512,170
+"row_sums__one_block_per_chunked_rows__write_buffer","pcie_total_data_received","PCIe Total Data Received",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"row_sums__one_block_per_chunked_rows__write_buffer","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"row_sums__one_block_per_chunked_rows__write_buffer","l2_tex_hit_rate","L2 Cache Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__write_buffer","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"row_sums__one_block_per_chunked_rows__write_buffer","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"row_sums__one_block_per_chunked_rows__write_buffer","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",1.454277,1.461867,1.458180
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.795541%,0.800380%,0.797743%
+"row_sums__one_block_per_chunked_rows__write_buffer","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows","sm_efficiency","Multiprocessor Activity",99.056316%,99.498410%,99.299343%
+"row_sums__one_block_per_chunked_rows","achieved_occupancy","Achieved Occupancy",0.998025,0.998464,0.998233
+"row_sums__one_block_per_chunked_rows","ipc","Executed IPC",1.234938,1.240102,1.237371
+"row_sums__one_block_per_chunked_rows","issued_ipc","Issued IPC",1.233856,1.240142,1.237310
+"row_sums__one_block_per_chunked_rows","inst_per_warp","Instructions per warp",162866.000000,162866.000000,162866.000000
+"row_sums__one_block_per_chunked_rows","branch_efficiency","Branch Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows","warp_execution_efficiency","Warp Execution Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",87.264070%,87.264070%,87.264070%
+"row_sums__one_block_per_chunked_rows","inst_replay_overhead","Instruction Replay Overhead",0.000028,0.000030,0.000029
+"row_sums__one_block_per_chunked_rows","issue_slot_utilization","Issue Slot Utilization",25.221605%,25.350110%,25.292216%
+"row_sums__one_block_per_chunked_rows","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",0.134868,0.134868,0.134868
+"row_sums__one_block_per_chunked_rows","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",0.225000,0.225000,0.225000
+"row_sums__one_block_per_chunked_rows","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows","gst_transactions_per_request","Global Store Transactions Per Request",0.062500,0.062500,0.062500
+"row_sums__one_block_per_chunked_rows","shared_store_transactions","Shared Store Transactions",589824,589824,589824
+"row_sums__one_block_per_chunked_rows","shared_load_transactions","Shared Load Transactions",671744,671744,671744
+"row_sums__one_block_per_chunked_rows","local_load_transactions","Local Load Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows","local_store_transactions","Local Store Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows","gst_transactions","Global Store Transactions",16384,16384,16384
+"row_sums__one_block_per_chunked_rows","dram_read_transactions","Device Memory Read Transactions",33735996,33808944,33765484
+"row_sums__one_block_per_chunked_rows","dram_write_transactions","Device Memory Write Transactions",18373,30777,21978
+"row_sums__one_block_per_chunked_rows","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows","gld_requested_throughput","Requested Global Load Throughput",158.145872GB/s,158.304972GB/s,158.205527GB/s
+"row_sums__one_block_per_chunked_rows","gst_requested_throughput","Requested Global Store Throughput",9.884116MB/s,9.894060MB/s,9.887844MB/s
+"row_sums__one_block_per_chunked_rows","gld_throughput","Global Load Throughput",158.145872GB/s,158.304972GB/s,158.205527GB/s
+"row_sums__one_block_per_chunked_rows","gst_throughput","Global Store Throughput",79.072936MB/s,79.152485MB/s,79.102762MB/s
+"row_sums__one_block_per_chunked_rows","dram_read_throughput","Device Memory Read Throughput",159.038706GB/s,159.505723GB/s,159.200616GB/s
+"row_sums__one_block_per_chunked_rows","dram_write_throughput","Device Memory Write Throughput",88.683217MB/s,148.600724MB/s,106.114895MB/s
+"row_sums__one_block_per_chunked_rows","tex_cache_throughput","Unified Cache Throughput",158.145872GB/s,158.304972GB/s,158.205527GB/s
+"row_sums__one_block_per_chunked_rows","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows","shared_load_throughput","Shared Memory Load Throughput",12.664025GB/s,12.676765GB/s,12.668802GB/s
+"row_sums__one_block_per_chunked_rows","shared_store_throughput","Shared Memory Store Throughput",11.119632GB/s,11.130818GB/s,11.123826GB/s
+"row_sums__one_block_per_chunked_rows","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows","gst_efficiency","Global Memory Store Efficiency",12.500000%,12.500000%,12.500000%
+"row_sums__one_block_per_chunked_rows","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_chunked_rows","special_fu_utilization","Special Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (3)","Low (3)","Low (3)"
+"row_sums__one_block_per_chunked_rows","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"row_sums__one_block_per_chunked_rows","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"row_sums__one_block_per_chunked_rows","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"row_sums__one_block_per_chunked_rows","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"row_sums__one_block_per_chunked_rows","flop_count_sp","Floating Point Operations(Single Precision)",276807680,276807680,276807680
+"row_sums__one_block_per_chunked_rows","flop_count_sp_add","Floating Point Operations(Single Precision Add)",276807680,276807680,276807680
+"row_sums__one_block_per_chunked_rows","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"row_sums__one_block_per_chunked_rows","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"row_sums__one_block_per_chunked_rows","flop_count_sp_special","Floating Point Operations(Single Precision Special)",32768,32768,32768
+"row_sums__one_block_per_chunked_rows","inst_executed","Instructions Executed",166774784,166774784,166774784
+"row_sums__one_block_per_chunked_rows","inst_issued","Instructions Issued",166779528,166780078,166779739
+"row_sums__one_block_per_chunked_rows","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"row_sums__one_block_per_chunked_rows","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows","shared_efficiency","Shared Memory Efficiency",83.035714%,83.035714%,83.035714%
+"row_sums__one_block_per_chunked_rows","shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows","inst_fp_32","FP Instructions(Single)",276840448,276840448,276840448
+"row_sums__one_block_per_chunked_rows","inst_fp_64","FP Instructions(Double)",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_integer","Integer Instructions",3020996608,3020996608,3020996608
+"row_sums__one_block_per_chunked_rows","inst_bit_convert","Bit-Convert Instructions",65536,65536,65536
+"row_sums__one_block_per_chunked_rows","inst_control","Control-Flow Instructions",872448000,872448000,872448000
+"row_sums__one_block_per_chunked_rows","inst_compute_ld_st","Load/Store Instructions",377470976,377470976,377470976
+"row_sums__one_block_per_chunked_rows","inst_misc","Misc Instructions",109281280,109281280,109281280
+"row_sums__one_block_per_chunked_rows","inst_inter_thread_communication","Inter-Thread Instructions",0,0,0
+"row_sums__one_block_per_chunked_rows","issue_slots","Issue Slots",136367601,136368050,136367764
+"row_sums__one_block_per_chunked_rows","cf_issued","Issued Control-Flow Instructions",36965376,36965376,36965376
+"row_sums__one_block_per_chunked_rows","cf_executed","Executed Control-Flow Instructions",36965376,36965376,36965376
+"row_sums__one_block_per_chunked_rows","ldst_issued","Issued Load/Store Instructions",45893632,45893632,45893632
+"row_sums__one_block_per_chunked_rows","ldst_executed","Executed Load/Store Instructions",23332864,23332864,23332864
+"row_sums__one_block_per_chunked_rows","atomic_transactions","Atomic Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"row_sums__one_block_per_chunked_rows","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_shared_loads","Warp level instructions for shared loads",4980736,4980736,4980736
+"row_sums__one_block_per_chunked_rows","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_global_stores","Warp level instructions for global stores",262144,262144,262144
+"row_sums__one_block_per_chunked_rows","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_shared_stores","Warp level instructions for shared stores",2621440,2621440,2621440
+"row_sums__one_block_per_chunked_rows","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"row_sums__one_block_per_chunked_rows","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"row_sums__one_block_per_chunked_rows","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"row_sums__one_block_per_chunked_rows","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"row_sums__one_block_per_chunked_rows","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"row_sums__one_block_per_chunked_rows","dram_read_bytes","Total bytes read from DRAM to L2 cache",1079551872,1081886208,1080495498
+"row_sums__one_block_per_chunked_rows","dram_write_bytes","Total bytes written from L2 cache to DRAM",587936,984864,703322
+"row_sums__one_block_per_chunked_rows","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",524288,524288,524288
+"row_sums__one_block_per_chunked_rows","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"row_sums__one_block_per_chunked_rows","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"row_sums__one_block_per_chunked_rows","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"row_sums__one_block_per_chunked_rows","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"row_sums__one_block_per_chunked_rows","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"row_sums__one_block_per_chunked_rows","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","global_store_requests","Total number of global store requests from Multiprocessor",16384,16384,16384
+"row_sums__one_block_per_chunked_rows","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",2.897904%,2.914722%,2.906190%
+"row_sums__one_block_per_chunked_rows","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",7.241332%,7.271992%,7.255687%
+"row_sums__one_block_per_chunked_rows","stall_memory_dependency","Issue Stall Reasons (Data Request)",77.401304%,77.564335%,77.483980%
+"row_sums__one_block_per_chunked_rows","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows","stall_sync","Issue Stall Reasons (Synchronization)",6.564008%,6.672450%,6.615853%
+"row_sums__one_block_per_chunked_rows","stall_other","Issue Stall Reasons (Other)",4.616054%,4.643128%,4.629044%
+"row_sums__one_block_per_chunked_rows","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.005874%,0.006519%,0.006053%
+"row_sums__one_block_per_chunked_rows","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.425152%,0.426944%,0.425803%
+"row_sums__one_block_per_chunked_rows","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.002856%,0.003284%,0.003050%
+"row_sums__one_block_per_chunked_rows","stall_not_selected","Issue Stall Reasons (Not Selected)",0.673645%,0.675309%,0.674338%
+"row_sums__one_block_per_chunked_rows","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"row_sums__one_block_per_chunked_rows","l2_read_transactions","L2 Read Transactions",33734785,33813971,33769026
+"row_sums__one_block_per_chunked_rows","l2_write_transactions","L2 Write Transactions",16390,16390,16390
+"row_sums__one_block_per_chunked_rows","ecc_transactions","ECC Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows","tex_cache_hit_rate","Unified Cache Hit Rate",49.987796%,49.987796%,49.987796%
+"row_sums__one_block_per_chunked_rows","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",0.366211%,0.842285%,0.500488%
+"row_sums__one_block_per_chunked_rows","l2_tex_read_throughput","L2 Throughput (Texture Reads)",158.145872GB/s,158.304972GB/s,158.205527GB/s
+"row_sums__one_block_per_chunked_rows","l2_tex_write_throughput","L2 Throughput (Texture Writes)",79.072936MB/s,79.152485MB/s,79.102762MB/s
+"row_sums__one_block_per_chunked_rows","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows","l2_tex_write_transactions","L2 Transactions (Texture Writes)",16384,16384,16384
+"row_sums__one_block_per_chunked_rows","l2_read_throughput","L2 Throughput (Reads)",159.015462GB/s,159.444806GB/s,159.217317GB/s
+"row_sums__one_block_per_chunked_rows","l2_write_throughput","L2 Throughput (Writes)",79.101893MB/s,79.181472MB/s,79.131731MB/s
+"row_sums__one_block_per_chunked_rows","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows","sysmem_write_throughput","System Memory Write Throughput",24.709961KB/s,24.734375KB/s,24.718750KB/s
+"row_sums__one_block_per_chunked_rows","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"row_sums__one_block_per_chunked_rows","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_chunked_rows","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,1536,341
+"row_sums__one_block_per_chunked_rows","pcie_total_data_received","PCIe Total Data Received",0,1024,170
+"row_sums__one_block_per_chunked_rows","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"row_sums__one_block_per_chunked_rows","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"row_sums__one_block_per_chunked_rows","l2_tex_hit_rate","L2 Cache Hit Rate",0.000179%,0.000411%,0.000244%
+"row_sums__one_block_per_chunked_rows","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"row_sums__one_block_per_chunked_rows","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"row_sums__one_block_per_chunked_rows","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",1.429482,1.436375,1.433079
+"row_sums__one_block_per_chunked_rows","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.794600%,0.799285%,0.797187%
+"row_sums__one_block_per_chunked_rows","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided","sm_efficiency","Multiprocessor Activity",99.134033%,99.608934%,99.401847%
+"row_sums__one_block_per_row_strided","achieved_occupancy","Achieved Occupancy",0.998178,0.998593,0.998412
+"row_sums__one_block_per_row_strided","ipc","Executed IPC",1.227765,1.235520,1.233083
+"row_sums__one_block_per_row_strided","issued_ipc","Issued IPC",1.230119,1.235098,1.232393
+"row_sums__one_block_per_row_strided","inst_per_warp","Instructions per warp",161550.000000,161550.000000,161550.000000
+"row_sums__one_block_per_row_strided","branch_efficiency","Branch Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row_strided","warp_execution_efficiency","Warp Execution Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row_strided","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",87.321572%,87.321572%,87.321572%
+"row_sums__one_block_per_row_strided","inst_replay_overhead","Instruction Replay Overhead",0.000039,0.000042,0.000041
+"row_sums__one_block_per_row_strided","issue_slot_utilization","Issue Slot Utilization",25.099793%,25.201389%,25.146200%
+"row_sums__one_block_per_row_strided","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",0.134868,0.134868,0.134868
+"row_sums__one_block_per_row_strided","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",0.225000,0.225000,0.225000
+"row_sums__one_block_per_row_strided","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row_strided","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row_strided","gst_transactions_per_request","Global Store Transactions Per Request",0.062500,0.062500,0.062500
+"row_sums__one_block_per_row_strided","shared_store_transactions","Shared Store Transactions",589824,589824,589824
+"row_sums__one_block_per_row_strided","shared_load_transactions","Shared Load Transactions",671744,671744,671744
+"row_sums__one_block_per_row_strided","local_load_transactions","Local Load Transactions",0,0,0
+"row_sums__one_block_per_row_strided","local_store_transactions","Local Store Transactions",0,0,0
+"row_sums__one_block_per_row_strided","gst_transactions","Global Store Transactions",16384,16384,16384
+"row_sums__one_block_per_row_strided","dram_read_transactions","Device Memory Read Transactions",33734074,33786284,33761740
+"row_sums__one_block_per_row_strided","dram_write_transactions","Device Memory Write Transactions",4962,22646,10870
+"row_sums__one_block_per_row_strided","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided","gld_requested_throughput","Requested Global Load Throughput",158.851895GB/s,158.972327GB/s,158.915766GB/s
+"row_sums__one_block_per_row_strided","gst_requested_throughput","Requested Global Store Throughput",9.928243MB/s,9.935770MB/s,9.932235MB/s
+"row_sums__one_block_per_row_strided","gld_throughput","Global Load Throughput",158.851895GB/s,158.972327GB/s,158.915766GB/s
+"row_sums__one_block_per_row_strided","gst_throughput","Global Store Throughput",79.425947MB/s,79.486163MB/s,79.457882MB/s
+"row_sums__one_block_per_row_strided","dram_read_throughput","Device Memory Read Throughput",159.778407GB/s,160.056353GB/s,159.897589GB/s
+"row_sums__one_block_per_row_strided","dram_write_throughput","Device Memory Write Throughput",24.072896MB/s,109.817412MB/s,52.717311MB/s
+"row_sums__one_block_per_row_strided","tex_cache_throughput","Unified Cache Throughput",158.851895GB/s,158.972327GB/s,158.915766GB/s
+"row_sums__one_block_per_row_strided","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided","shared_load_throughput","Shared Memory Load Throughput",12.720562GB/s,12.730206GB/s,12.725677GB/s
+"row_sums__one_block_per_row_strided","shared_store_throughput","Shared Memory Store Throughput",11.169274GB/s,11.177742GB/s,11.173765GB/s
+"row_sums__one_block_per_row_strided","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row_strided","gst_efficiency","Global Memory Store Efficiency",12.500000%,12.500000%,12.500000%
+"row_sums__one_block_per_row_strided","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"row_sums__one_block_per_row_strided","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row_strided","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row_strided","special_fu_utilization","Special Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row_strided","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (3)","Low (3)","Low (3)"
+"row_sums__one_block_per_row_strided","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"row_sums__one_block_per_row_strided","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"row_sums__one_block_per_row_strided","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"row_sums__one_block_per_row_strided","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"row_sums__one_block_per_row_strided","flop_count_sp","Floating Point Operations(Single Precision)",276807680,276807680,276807680
+"row_sums__one_block_per_row_strided","flop_count_sp_add","Floating Point Operations(Single Precision Add)",276807680,276807680,276807680
+"row_sums__one_block_per_row_strided","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"row_sums__one_block_per_row_strided","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"row_sums__one_block_per_row_strided","flop_count_sp_special","Floating Point Operations(Single Precision Special)",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed","Instructions Executed",165427200,165427200,165427200
+"row_sums__one_block_per_row_strided","inst_issued","Instructions Issued",165433640,165433944,165433824
+"row_sums__one_block_per_row_strided","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"row_sums__one_block_per_row_strided","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row_strided","shared_efficiency","Shared Memory Efficiency",83.035714%,83.035714%,83.035714%
+"row_sums__one_block_per_row_strided","shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided","inst_fp_32","FP Instructions(Single)",276807680,276807680,276807680
+"row_sums__one_block_per_row_strided","inst_fp_64","FP Instructions(Double)",0,0,0
+"row_sums__one_block_per_row_strided","inst_integer","Integer Instructions",2994896896,2994896896,2994896896
+"row_sums__one_block_per_row_strided","inst_bit_convert","Bit-Convert Instructions",0,0,0
+"row_sums__one_block_per_row_strided","inst_control","Control-Flow Instructions",872415232,872415232,872415232
+"row_sums__one_block_per_row_strided","inst_compute_ld_st","Load/Store Instructions",377470976,377470976,377470976
+"row_sums__one_block_per_row_strided","inst_misc","Misc Instructions",100925440,100925440,100925440
+"row_sums__one_block_per_row_strided","inst_inter_thread_communication","Inter-Thread Instructions",0,0,0
+"row_sums__one_block_per_row_strided","issue_slots","Issue Slots",135022716,135022963,135022867
+"row_sums__one_block_per_row_strided","cf_issued","Issued Control-Flow Instructions",36440064,36440064,36440064
+"row_sums__one_block_per_row_strided","cf_executed","Executed Control-Flow Instructions",36440064,36440064,36440064
+"row_sums__one_block_per_row_strided","ldst_issued","Issued Load/Store Instructions",45893632,45893632,45893632
+"row_sums__one_block_per_row_strided","ldst_executed","Executed Load/Store Instructions",23332864,23332864,23332864
+"row_sums__one_block_per_row_strided","atomic_transactions","Atomic Transactions",0,0,0
+"row_sums__one_block_per_row_strided","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row_strided","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"row_sums__one_block_per_row_strided","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_shared_loads","Warp level instructions for shared loads",4980736,4980736,4980736
+"row_sums__one_block_per_row_strided","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_global_stores","Warp level instructions for global stores",262144,262144,262144
+"row_sums__one_block_per_row_strided","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_shared_stores","Warp level instructions for shared stores",2621440,2621440,2621440
+"row_sums__one_block_per_row_strided","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"row_sums__one_block_per_row_strided","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"row_sums__one_block_per_row_strided","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"row_sums__one_block_per_row_strided","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"row_sums__one_block_per_row_strided","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"row_sums__one_block_per_row_strided","dram_read_bytes","Total bytes read from DRAM to L2 cache",1079490368,1081161088,1080375680
+"row_sums__one_block_per_row_strided","dram_write_bytes","Total bytes written from L2 cache to DRAM",158784,724672,347845
+"row_sums__one_block_per_row_strided","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",524288,524288,524288
+"row_sums__one_block_per_row_strided","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"row_sums__one_block_per_row_strided","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"row_sums__one_block_per_row_strided","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"row_sums__one_block_per_row_strided","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"row_sums__one_block_per_row_strided","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"row_sums__one_block_per_row_strided","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"row_sums__one_block_per_row_strided","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","global_store_requests","Total number of global store requests from Multiprocessor",16384,16384,16384
+"row_sums__one_block_per_row_strided","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",3.346042%,3.357043%,3.351087%
+"row_sums__one_block_per_row_strided","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",7.121099%,7.154837%,7.137790%
+"row_sums__one_block_per_row_strided","stall_memory_dependency","Issue Stall Reasons (Data Request)",77.111794%,77.168961%,77.140211%
+"row_sums__one_block_per_row_strided","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided","stall_sync","Issue Stall Reasons (Synchronization)",6.583197%,6.669133%,6.612556%
+"row_sums__one_block_per_row_strided","stall_other","Issue Stall Reasons (Other)",4.724936%,4.767492%,4.742483%
+"row_sums__one_block_per_row_strided","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.006474%,0.007175%,0.006733%
+"row_sums__one_block_per_row_strided","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.393776%,0.395296%,0.394386%
+"row_sums__one_block_per_row_strided","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.002601%,0.002932%,0.002803%
+"row_sums__one_block_per_row_strided","stall_not_selected","Issue Stall Reasons (Not Selected)",0.610945%,0.613634%,0.611950%
+"row_sums__one_block_per_row_strided","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"row_sums__one_block_per_row_strided","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"row_sums__one_block_per_row_strided","l2_read_transactions","L2 Read Transactions",33687887,33820417,33731708
+"row_sums__one_block_per_row_strided","l2_write_transactions","L2 Write Transactions",16390,16449,16399
+"row_sums__one_block_per_row_strided","ecc_transactions","ECC Transactions",0,0,0
+"row_sums__one_block_per_row_strided","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided","tex_cache_hit_rate","Unified Cache Hit Rate",49.987796%,49.987796%,49.987796%
+"row_sums__one_block_per_row_strided","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",90.740967%,95.880127%,94.124349%
+"row_sums__one_block_per_row_strided","l2_tex_read_throughput","L2 Throughput (Texture Reads)",158.851895GB/s,158.972327GB/s,158.915766GB/s
+"row_sums__one_block_per_row_strided","l2_tex_write_throughput","L2 Throughput (Texture Writes)",79.425947MB/s,79.486163MB/s,79.457882MB/s
+"row_sums__one_block_per_row_strided","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"row_sums__one_block_per_row_strided","l2_tex_write_transactions","L2 Transactions (Texture Writes)",16384,16384,16384
+"row_sums__one_block_per_row_strided","l2_read_throughput","L2 Throughput (Reads)",159.553746GB/s,160.111109GB/s,159.755359GB/s
+"row_sums__one_block_per_row_strided","l2_write_throughput","L2 Throughput (Writes)",79.469728MB/s,79.741053MB/s,79.534670MB/s
+"row_sums__one_block_per_row_strided","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided","sysmem_write_throughput","System Memory Write Throughput",24.820312KB/s,24.838867KB/s,24.830078KB/s
+"row_sums__one_block_per_row_strided","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row_strided","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"row_sums__one_block_per_row_strided","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row_strided","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,512,256
+"row_sums__one_block_per_row_strided","pcie_total_data_received","PCIe Total Data Received",0,0,0
+"row_sums__one_block_per_row_strided","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"row_sums__one_block_per_row_strided","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"row_sums__one_block_per_row_strided","l2_tex_hit_rate","L2 Cache Hit Rate",0.044285%,0.046794%,0.045937%
+"row_sums__one_block_per_row_strided","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"row_sums__one_block_per_row_strided","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"row_sums__one_block_per_row_strided","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",1.386143,1.391272,1.388529
+"row_sums__one_block_per_row_strided","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.799596%,0.804336%,0.801871%
+"row_sums__one_block_per_row_strided","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided__warp_aware","sm_efficiency","Multiprocessor Activity",99.174076%,99.698252%,99.466164%
+"row_sums__one_block_per_row_strided__warp_aware","achieved_occupancy","Achieved Occupancy",0.998557,0.998882,0.998777
+"row_sums__one_block_per_row_strided__warp_aware","ipc","Executed IPC",1.093752,1.098964,1.096355
+"row_sums__one_block_per_row_strided__warp_aware","issued_ipc","Issued IPC",1.093635,1.099863,1.096409
+"row_sums__one_block_per_row_strided__warp_aware","inst_per_warp","Instructions per warp",143503.000000,143503.000000,143503.000000
+"row_sums__one_block_per_row_strided__warp_aware","branch_efficiency","Branch Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row_strided__warp_aware","warp_execution_efficiency","Warp Execution Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row_strided__warp_aware","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",93.685909%,93.685909%,93.685909%
+"row_sums__one_block_per_row_strided__warp_aware","inst_replay_overhead","Instruction Replay Overhead",0.000059,0.000060,0.000059
+"row_sums__one_block_per_row_strided__warp_aware","issue_slot_utilization","Issue Slot Utilization",22.347305%,22.474550%,22.403970%
+"row_sums__one_block_per_row_strided__warp_aware","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_row_strided__warp_aware","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_row_strided__warp_aware","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row_strided__warp_aware","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row_strided__warp_aware","gst_transactions_per_request","Global Store Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_row_strided__warp_aware","shared_store_transactions","Shared Store Transactions",263168,263168,263168
+"row_sums__one_block_per_row_strided__warp_aware","shared_load_transactions","Shared Load Transactions",16384,16384,16384
+"row_sums__one_block_per_row_strided__warp_aware","local_load_transactions","Local Load Transactions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","local_store_transactions","Local Store Transactions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","gst_transactions","Global Store Transactions",16384,16384,16384
+"row_sums__one_block_per_row_strided__warp_aware","dram_read_transactions","Device Memory Read Transactions",33685390,33786797,33752356
+"row_sums__one_block_per_row_strided__warp_aware","dram_write_transactions","Device Memory Write Transactions",4933,19103,9974
+"row_sums__one_block_per_row_strided__warp_aware","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided__warp_aware","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided__warp_aware","gld_requested_throughput","Requested Global Load Throughput",158.784019GB/s,158.977230GB/s,158.900237GB/s
+"row_sums__one_block_per_row_strided__warp_aware","gst_requested_throughput","Requested Global Store Throughput",9.924001MB/s,9.936076MB/s,9.931264MB/s
+"row_sums__one_block_per_row_strided__warp_aware","gld_throughput","Global Load Throughput",158.784019GB/s,158.977230GB/s,158.900237GB/s
+"row_sums__one_block_per_row_strided__warp_aware","gst_throughput","Global Store Throughput",79.392009MB/s,79.488614MB/s,79.450117MB/s
+"row_sums__one_block_per_row_strided__warp_aware","dram_read_throughput","Device Memory Read Throughput",159.403730GB/s,159.992417GB/s,159.837526GB/s
+"row_sums__one_block_per_row_strided__warp_aware","dram_write_throughput","Device Memory Write Throughput",23.932942MB/s,92.663557MB/s,48.367230MB/s
+"row_sums__one_block_per_row_strided__warp_aware","tex_cache_throughput","Unified Cache Throughput",158.784019GB/s,158.977230GB/s,158.900237GB/s
+"row_sums__one_block_per_row_strided__warp_aware","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided__warp_aware","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided__warp_aware","shared_load_throughput","Shared Memory Load Throughput",317.568038MB/s,317.954458MB/s,317.800472MB/s
+"row_sums__one_block_per_row_strided__warp_aware","shared_store_throughput","Shared Memory Store Throughput",4.981383GB/s,4.987445GB/s,4.985029GB/s
+"row_sums__one_block_per_row_strided__warp_aware","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row_strided__warp_aware","gst_efficiency","Global Memory Store Efficiency",12.500000%,12.500000%,12.500000%
+"row_sums__one_block_per_row_strided__warp_aware","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"row_sums__one_block_per_row_strided__warp_aware","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided__warp_aware","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row_strided__warp_aware","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided__warp_aware","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row_strided__warp_aware","special_fu_utilization","Special Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided__warp_aware","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_sp","Floating Point Operations(Single Precision)",312999936,312999936,312999936
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_sp_add","Floating Point Operations(Single Precision Add)",312999936,312999936,312999936
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","flop_count_sp_special","Floating Point Operations(Single Precision Special)",32768,32768,32768
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed","Instructions Executed",146947072,146947072,146947072
+"row_sums__one_block_per_row_strided__warp_aware","inst_issued","Instructions Issued",146955704,146955926,146955802
+"row_sums__one_block_per_row_strided__warp_aware","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"row_sums__one_block_per_row_strided__warp_aware","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row_strided__warp_aware","shared_efficiency","Shared Memory Efficiency",5.872253%,5.872253%,5.872253%
+"row_sums__one_block_per_row_strided__warp_aware","shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided__warp_aware","inst_fp_32","FP Instructions(Single)",313032704,313032704,313032704
+"row_sums__one_block_per_row_strided__warp_aware","inst_fp_64","FP Instructions(Double)",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_integer","Integer Instructions",2842216320,2842216320,2842216320
+"row_sums__one_block_per_row_strided__warp_aware","inst_bit_convert","Bit-Convert Instructions",65536,65536,65536
+"row_sums__one_block_per_row_strided__warp_aware","inst_control","Control-Flow Instructions",857735168,857735168,857735168
+"row_sums__one_block_per_row_strided__warp_aware","inst_compute_ld_st","Load/Store Instructions",277365760,277365760,277365760
+"row_sums__one_block_per_row_strided__warp_aware","inst_misc","Misc Instructions",70418432,70418432,70418432
+"row_sums__one_block_per_row_strided__warp_aware","inst_inter_thread_communication","Inter-Thread Instructions",44564480,44564480,44564480
+"row_sums__one_block_per_row_strided__warp_aware","issue_slots","Issue Slots",120115488,120115666,120115554
+"row_sums__one_block_per_row_strided__warp_aware","cf_issued","Issued Control-Flow Instructions",35751936,35751936,35751936
+"row_sums__one_block_per_row_strided__warp_aware","cf_executed","Executed Control-Flow Instructions",35751936,35751936,35751936
+"row_sums__one_block_per_row_strided__warp_aware","ldst_issued","Issued Load/Store Instructions",35769344,35769344,35769344
+"row_sums__one_block_per_row_strided__warp_aware","ldst_executed","Executed Load/Store Instructions",10865664,10865664,10865664
+"row_sums__one_block_per_row_strided__warp_aware","atomic_transactions","Atomic Transactions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_shared_loads","Warp level instructions for shared loads",16384,16384,16384
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_global_stores","Warp level instructions for global stores",16384,16384,16384
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_shared_stores","Warp level instructions for shared stores",263168,263168,263168
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"row_sums__one_block_per_row_strided__warp_aware","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","dram_read_bytes","Total bytes read from DRAM to L2 cache",1077932480,1081177504,1080075397
+"row_sums__one_block_per_row_strided__warp_aware","dram_write_bytes","Total bytes written from L2 cache to DRAM",157856,611296,319173
+"row_sums__one_block_per_row_strided__warp_aware","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",524288,524288,524288
+"row_sums__one_block_per_row_strided__warp_aware","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"row_sums__one_block_per_row_strided__warp_aware","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","global_store_requests","Total number of global store requests from Multiprocessor",16384,16384,16384
+"row_sums__one_block_per_row_strided__warp_aware","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",3.894583%,3.922520%,3.908257%
+"row_sums__one_block_per_row_strided__warp_aware","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",6.039633%,6.078792%,6.058261%
+"row_sums__one_block_per_row_strided__warp_aware","stall_memory_dependency","Issue Stall Reasons (Data Request)",80.916970%,81.078679%,81.016874%
+"row_sums__one_block_per_row_strided__warp_aware","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided__warp_aware","stall_sync","Issue Stall Reasons (Synchronization)",4.494460%,4.615840%,4.540723%
+"row_sums__one_block_per_row_strided__warp_aware","stall_other","Issue Stall Reasons (Other)",3.681111%,3.692236%,3.687579%
+"row_sums__one_block_per_row_strided__warp_aware","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.006547%,0.007162%,0.006882%
+"row_sums__one_block_per_row_strided__warp_aware","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.310705%,0.312668%,0.311736%
+"row_sums__one_block_per_row_strided__warp_aware","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.000012%,0.000012%,0.000012%
+"row_sums__one_block_per_row_strided__warp_aware","stall_not_selected","Issue Stall Reasons (Not Selected)",0.468245%,0.472002%,0.469677%
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"row_sums__one_block_per_row_strided__warp_aware","l2_read_transactions","L2 Read Transactions",33707271,33818017,33765317
+"row_sums__one_block_per_row_strided__warp_aware","l2_write_transactions","L2 Write Transactions",16390,16390,16390
+"row_sums__one_block_per_row_strided__warp_aware","ecc_transactions","ECC Transactions",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided__warp_aware","tex_cache_hit_rate","Unified Cache Hit Rate",49.987796%,49.987796%,49.987796%
+"row_sums__one_block_per_row_strided__warp_aware","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row_strided__warp_aware","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",91.125488%,94.635010%,93.052165%
+"row_sums__one_block_per_row_strided__warp_aware","l2_tex_read_throughput","L2 Throughput (Texture Reads)",158.784019GB/s,158.977230GB/s,158.900237GB/s
+"row_sums__one_block_per_row_strided__warp_aware","l2_tex_write_throughput","L2 Throughput (Texture Writes)",79.392009MB/s,79.488614MB/s,79.450117MB/s
+"row_sums__one_block_per_row_strided__warp_aware","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"row_sums__one_block_per_row_strided__warp_aware","l2_tex_write_transactions","L2 Transactions (Texture Writes)",16384,16384,16384
+"row_sums__one_block_per_row_strided__warp_aware","l2_read_throughput","L2 Throughput (Reads)",159.613313GB/s,160.157855GB/s,159.898906GB/s
+"row_sums__one_block_per_row_strided__warp_aware","l2_write_throughput","L2 Throughput (Writes)",79.421083MB/s,79.517724MB/s,79.479213MB/s
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_write_throughput","System Memory Write Throughput",24.809570KB/s,24.839844KB/s,24.827148KB/s
+"row_sums__one_block_per_row_strided__warp_aware","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row_strided__warp_aware","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided__warp_aware","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided__warp_aware","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row_strided__warp_aware","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,1024,341
+"row_sums__one_block_per_row_strided__warp_aware","pcie_total_data_received","PCIe Total Data Received",0,512,170
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"row_sums__one_block_per_row_strided__warp_aware","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"row_sums__one_block_per_row_strided__warp_aware","l2_tex_hit_rate","L2 Cache Hit Rate",0.044473%,0.046186%,0.045413%
+"row_sums__one_block_per_row_strided__warp_aware","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"row_sums__one_block_per_row_strided__warp_aware","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"row_sums__one_block_per_row_strided__warp_aware","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",1.188282,1.194248,1.190821
+"row_sums__one_block_per_row_strided__warp_aware","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.901355%,0.907864%,0.905860%
+"row_sums__one_block_per_row_strided__warp_aware","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
+"column_sums","sm_efficiency","Multiprocessor Activity",99.117102%,99.660403%,99.413348%
+"column_sums","achieved_occupancy","Achieved Occupancy",0.497950,0.498921,0.498505
+"column_sums","ipc","Executed IPC",0.387636,0.388955,0.388352
+"column_sums","issued_ipc","Issued IPC",0.387810,0.389311,0.388582
+"column_sums","inst_per_warp","Instructions per warp",98342.000000,98342.000000,98342.000000
+"column_sums","branch_efficiency","Branch Efficiency",100.000000%,100.000000%,100.000000%
+"column_sums","warp_execution_efficiency","Warp Execution Efficiency",100.000000%,100.000000%,100.000000%
+"column_sums","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",99.996949%,99.996949%,99.996949%
+"column_sums","inst_replay_overhead","Instruction Replay Overhead",0.000030,0.000030,0.000030
+"column_sums","issue_slot_utilization","Issue Slot Utilization",8.079942%,8.111226%,8.096026%
+"column_sums","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"column_sums","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"column_sums","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"column_sums","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"column_sums","gst_transactions_per_request","Global Store Transactions Per Request",4.000000,4.000000,4.000000
+"column_sums","shared_store_transactions","Shared Store Transactions",0,0,0
+"column_sums","shared_load_transactions","Shared Load Transactions",0,0,0
+"column_sums","local_load_transactions","Local Load Transactions",0,0,0
+"column_sums","local_store_transactions","Local Store Transactions",0,0,0
+"column_sums","gst_transactions","Global Store Transactions",2048,2048,2048
+"column_sums","dram_read_transactions","Device Memory Read Transactions",33720422,33813566,33762981
+"column_sums","dram_write_transactions","Device Memory Write Transactions",3490,14686,7599
+"column_sums","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"column_sums","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"column_sums","gld_requested_throughput","Requested Global Load Throughput",164.888237GB/s,165.009259GB/s,164.945991GB/s
+"column_sums","gst_requested_throughput","Requested Global Store Throughput",10.305514MB/s,10.313078MB/s,10.309123MB/s
+"column_sums","gld_throughput","Global Load Throughput",164.888237GB/s,165.009259GB/s,164.945991GB/s
+"column_sums","gst_throughput","Global Store Throughput",10.305514MB/s,10.313078MB/s,10.309123MB/s
+"column_sums","dram_read_throughput","Device Memory Read Throughput",165.703921GB/s,166.226457GB/s,165.971173GB/s
+"column_sums","dram_write_throughput","Device Memory Write Throughput",17.568495MB/s,73.931470MB/s,38.254837MB/s
+"column_sums","tex_cache_throughput","Unified Cache Throughput",164.888237GB/s,165.009259GB/s,164.945991GB/s
+"column_sums","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"column_sums","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"column_sums","shared_load_throughput","Shared Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"column_sums","shared_store_throughput","Shared Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"column_sums","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"column_sums","gst_efficiency","Global Memory Store Efficiency",100.000000%,100.000000%,100.000000%
+"column_sums","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"column_sums","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"column_sums","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"column_sums","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"column_sums","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"column_sums","special_fu_utilization","Special Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"column_sums","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"column_sums","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"column_sums","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"column_sums","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"column_sums","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"column_sums","flop_count_sp","Floating Point Operations(Single Precision)",268435456,268435456,268435456
+"column_sums","flop_count_sp_add","Floating Point Operations(Single Precision Add)",268435456,268435456,268435456
+"column_sums","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"column_sums","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"column_sums","flop_count_sp_special","Floating Point Operations(Single Precision Special)",0,0,0
+"column_sums","inst_executed","Instructions Executed",50351104,50351104,50351104
+"column_sums","inst_issued","Instructions Issued",50352598,50352616,50352605
+"column_sums","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"column_sums","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"column_sums","shared_efficiency","Shared Memory Efficiency",0.000000%,0.000000%,0.000000%
+"column_sums","shared_utilization","Shared Memory Utilization","Idle (0)","Idle (0)","Idle (0)"
+"column_sums","inst_fp_32","FP Instructions(Single)",268435456,268435456,268435456
+"column_sums","inst_fp_64","FP Instructions(Double)",0,0,0
+"column_sums","inst_integer","Integer Instructions",939884544,939884544,939884544
+"column_sums","inst_bit_convert","Bit-Convert Instructions",0,0,0
+"column_sums","inst_control","Control-Flow Instructions",67125248,67125248,67125248
+"column_sums","inst_compute_ld_st","Load/Store Instructions",268451840,268451840,268451840
+"column_sums","inst_misc","Misc Instructions",67289088,67289088,67289088
+"column_sums","inst_inter_thread_communication","Inter-Thread Instructions",0,0,0
+"column_sums","issue_slots","Issue Slots",41963478,41963496,41963485
+"column_sums","cf_issued","Issued Control-Flow Instructions",2099200,2099200,2099200
+"column_sums","cf_executed","Executed Control-Flow Instructions",2099200,2099200,2099200
+"column_sums","ldst_issued","Issued Load/Store Instructions",33557504,33557504,33557504
+"column_sums","ldst_executed","Executed Load/Store Instructions",8390144,8390144,8390144
+"column_sums","atomic_transactions","Atomic Transactions",0,0,0
+"column_sums","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"column_sums","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"column_sums","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"column_sums","inst_executed_shared_loads","Warp level instructions for shared loads",0,0,0
+"column_sums","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"column_sums","inst_executed_global_stores","Warp level instructions for global stores",512,512,512
+"column_sums","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"column_sums","inst_executed_shared_stores","Warp level instructions for shared stores",0,0,0
+"column_sums","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"column_sums","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"column_sums","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"column_sums","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"column_sums","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"column_sums","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"column_sums","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"column_sums","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"column_sums","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"column_sums","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"column_sums","dram_read_bytes","Total bytes read from DRAM to L2 cache",1079053504,1082034112,1080415402
+"column_sums","dram_write_bytes","Total bytes written from L2 cache to DRAM",111680,469952,243189
+"column_sums","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",65536,65536,65536
+"column_sums","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"column_sums","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"column_sums","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"column_sums","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"column_sums","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"column_sums","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"column_sums","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"column_sums","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"column_sums","global_store_requests","Total number of global store requests from Multiprocessor",2048,2048,2048
+"column_sums","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"column_sums","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"column_sums","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"column_sums","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"column_sums","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"column_sums","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"column_sums","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"column_sums","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",0.988092%,0.992904%,0.990839%
+"column_sums","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",3.331523%,3.344509%,3.338939%
+"column_sums","stall_memory_dependency","Issue Stall Reasons (Data Request)",95.065555%,95.082103%,95.069896%
+"column_sums","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"column_sums","stall_sync","Issue Stall Reasons (Synchronization)",0.000000%,0.000000%,0.000000%
+"column_sums","stall_other","Issue Stall Reasons (Other)",0.415675%,0.417255%,0.416468%
+"column_sums","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.005829%,0.011525%,0.006868%
+"column_sums","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.010973%,0.011033%,0.010993%
+"column_sums","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.000204%,0.000207%,0.000206%
+"column_sums","stall_not_selected","Issue Stall Reasons (Not Selected)",0.164039%,0.166778%,0.165790%
+"column_sums","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"column_sums","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"column_sums","l2_read_transactions","L2 Read Transactions",33707381,33823085,33759788
+"column_sums","l2_write_transactions","L2 Write Transactions",2054,2054,2054
+"column_sums","ecc_transactions","ECC Transactions",0,0,0
+"column_sums","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"column_sums","tex_cache_hit_rate","Unified Cache Hit Rate",50.000000%,50.000000%,50.000000%
+"column_sums","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"column_sums","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",0.000000%,25.781250%,4.427083%
+"column_sums","l2_tex_read_throughput","L2 Throughput (Texture Reads)",164.888237GB/s,165.009259GB/s,164.945991GB/s
+"column_sums","l2_tex_write_throughput","L2 Throughput (Texture Writes)",10.305514MB/s,10.313078MB/s,10.309123MB/s
+"column_sums","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"column_sums","l2_tex_write_transactions","L2 Transactions (Texture Writes)",2048,2048,2048
+"column_sums","l2_read_throughput","L2 Throughput (Reads)",165.701639GB/s,166.241998GB/s,165.955476GB/s
+"column_sums","l2_write_throughput","L2 Throughput (Writes)",10.335707MB/s,10.343292MB/s,10.339326MB/s
+"column_sums","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"column_sums","sysmem_write_throughput","System Memory Write Throughput",25.763672KB/s,25.782227KB/s,25.771484KB/s
+"column_sums","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"column_sums","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"column_sums","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"column_sums","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"column_sums","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"column_sums","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"column_sums","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"column_sums","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,512,170
+"column_sums","pcie_total_data_received","PCIe Total Data Received",0,0,0
+"column_sums","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"column_sums","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"column_sums","l2_tex_hit_rate","L2 Cache Hit Rate",0.000000%,0.001573%,0.000270%
+"column_sums","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"column_sums","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"column_sums","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",0.375442,0.376758,0.376013
+"column_sums","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.801150%,0.805394%,0.803342%
+"column_sums","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row","sm_efficiency","Multiprocessor Activity",99.924080%,99.928684%,99.926065%
+"row_sums__one_block_per_row","achieved_occupancy","Achieved Occupancy",0.993291,0.993429,0.993362
+"row_sums__one_block_per_row","ipc","Executed IPC",1.256954,1.267898,1.263438
+"row_sums__one_block_per_row","issued_ipc","Issued IPC",1.253800,1.266017,1.260061
+"row_sums__one_block_per_row","inst_per_warp","Instructions per warp",667.437500,667.437500,667.437500
+"row_sums__one_block_per_row","branch_efficiency","Branch Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row","warp_execution_efficiency","Warp Execution Efficiency",99.936499%,99.936499%,99.936499%
+"row_sums__one_block_per_row","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",88.547909%,88.547909%,88.547909%
+"row_sums__one_block_per_row","inst_replay_overhead","Instruction Replay Overhead",0.000050,0.000053,0.000051
+"row_sums__one_block_per_row","issue_slot_utilization","Issue Slot Utilization",25.894578%,26.146888%,26.023874%
+"row_sums__one_block_per_row","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",0.141869,0.141869,0.141869
+"row_sums__one_block_per_row","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",0.225000,0.225000,0.225000
+"row_sums__one_block_per_row","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row","gst_transactions_per_request","Global Store Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_row","shared_store_transactions","Shared Store Transactions",589824,589824,589824
+"row_sums__one_block_per_row","shared_load_transactions","Shared Load Transactions",671744,671744,671744
+"row_sums__one_block_per_row","local_load_transactions","Local Load Transactions",0,0,0
+"row_sums__one_block_per_row","local_store_transactions","Local Store Transactions",0,0,0
+"row_sums__one_block_per_row","gst_transactions","Global Store Transactions",16384,16384,16384
+"row_sums__one_block_per_row","dram_read_transactions","Device Memory Read Transactions",33732169,33811122,33773971
+"row_sums__one_block_per_row","dram_write_transactions","Device Memory Write Transactions",4152,16381,10138
+"row_sums__one_block_per_row","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row","gld_requested_throughput","Requested Global Load Throughput",154.489830GB/s,154.795407GB/s,154.630268GB/s
+"row_sums__one_block_per_row","gst_requested_throughput","Requested Global Store Throughput",9.655614MB/s,9.674712MB/s,9.664391MB/s
+"row_sums__one_block_per_row","gld_throughput","Global Load Throughput",154.489830GB/s,154.795407GB/s,154.630268GB/s
+"row_sums__one_block_per_row","gst_throughput","Global Store Throughput",77.244914MB/s,77.397703MB/s,77.315133MB/s
+"row_sums__one_block_per_row","dram_read_throughput","Device Memory Read Throughput",155.387258GB/s,155.947214GB/s,155.641983GB/s
+"row_sums__one_block_per_row","dram_write_throughput","Device Memory Write Throughput",19.575249MB/s,77.367471MB/s,47.844558MB/s
+"row_sums__one_block_per_row","tex_cache_throughput","Unified Cache Throughput",154.489830GB/s,154.795407GB/s,154.630268GB/s
+"row_sums__one_block_per_row","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row","shared_load_throughput","Shared Memory Load Throughput",12.371256GB/s,12.395726GB/s,12.382502GB/s
+"row_sums__one_block_per_row","shared_store_throughput","Shared Memory Store Throughput",10.862566GB/s,10.884052GB/s,10.872441GB/s
+"row_sums__one_block_per_row","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row","gst_efficiency","Global Memory Store Efficiency",12.500000%,12.500000%,12.500000%
+"row_sums__one_block_per_row","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"row_sums__one_block_per_row","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row","special_fu_utilization","Special Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (3)","Low (3)","Low (3)"
+"row_sums__one_block_per_row","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"row_sums__one_block_per_row","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"row_sums__one_block_per_row","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"row_sums__one_block_per_row","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"row_sums__one_block_per_row","flop_count_sp","Floating Point Operations(Single Precision)",276807680,276807680,276807680
+"row_sums__one_block_per_row","flop_count_sp_add","Floating Point Operations(Single Precision Add)",276807680,276807680,276807680
+"row_sums__one_block_per_row","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"row_sums__one_block_per_row","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"row_sums__one_block_per_row","flop_count_sp_special","Floating Point Operations(Single Precision Special)",0,0,0
+"row_sums__one_block_per_row","inst_executed","Instructions Executed",174964736,174964736,174964736
+"row_sums__one_block_per_row","inst_issued","Instructions Issued",174973518,174973830,174973669
+"row_sums__one_block_per_row","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"row_sums__one_block_per_row","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row","shared_efficiency","Shared Memory Efficiency",83.035714%,83.035714%,83.035714%
+"row_sums__one_block_per_row","shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row","inst_fp_32","FP Instructions(Single)",276807680,276807680,276807680
+"row_sums__one_block_per_row","inst_fp_64","FP Instructions(Double)",0,0,0
+"row_sums__one_block_per_row","inst_integer","Integer Instructions",3271573504,3271573504,3271573504
+"row_sums__one_block_per_row","inst_bit_convert","Bit-Convert Instructions",0,0,0
+"row_sums__one_block_per_row","inst_control","Control-Flow Instructions",872415232,872415232,872415232
+"row_sums__one_block_per_row","inst_compute_ld_st","Load/Store Instructions",377470976,377470976,377470976
+"row_sums__one_block_per_row","inst_misc","Misc Instructions",159416320,159416320,159416320
+"row_sums__one_block_per_row","inst_inter_thread_communication","Inter-Thread Instructions",0,0,0
+"row_sums__one_block_per_row","issue_slots","Issue Slots",144548215,144548540,144548365
+"row_sums__one_block_per_row","cf_issued","Issued Control-Flow Instructions",36716544,36716544,36716544
+"row_sums__one_block_per_row","cf_executed","Executed Control-Flow Instructions",36716544,36716544,36716544
+"row_sums__one_block_per_row","ldst_issued","Issued Load/Store Instructions",46170112,46170112,46170112
+"row_sums__one_block_per_row","ldst_executed","Executed Load/Store Instructions",23363584,23363584,23363584
+"row_sums__one_block_per_row","atomic_transactions","Atomic Transactions",0,0,0
+"row_sums__one_block_per_row","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"row_sums__one_block_per_row","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"row_sums__one_block_per_row","inst_executed_shared_loads","Warp level instructions for shared loads",4734976,4734976,4734976
+"row_sums__one_block_per_row","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"row_sums__one_block_per_row","inst_executed_global_stores","Warp level instructions for global stores",16384,16384,16384
+"row_sums__one_block_per_row","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"row_sums__one_block_per_row","inst_executed_shared_stores","Warp level instructions for shared stores",2621440,2621440,2621440
+"row_sums__one_block_per_row","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"row_sums__one_block_per_row","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"row_sums__one_block_per_row","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"row_sums__one_block_per_row","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"row_sums__one_block_per_row","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"row_sums__one_block_per_row","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"row_sums__one_block_per_row","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"row_sums__one_block_per_row","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"row_sums__one_block_per_row","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"row_sums__one_block_per_row","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"row_sums__one_block_per_row","dram_read_bytes","Total bytes read from DRAM to L2 cache",1079429408,1081955904,1080767098
+"row_sums__one_block_per_row","dram_write_bytes","Total bytes written from L2 cache to DRAM",132864,524192,324442
+"row_sums__one_block_per_row","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",524288,524288,524288
+"row_sums__one_block_per_row","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"row_sums__one_block_per_row","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"row_sums__one_block_per_row","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"row_sums__one_block_per_row","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"row_sums__one_block_per_row","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"row_sums__one_block_per_row","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"row_sums__one_block_per_row","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","global_store_requests","Total number of global store requests from Multiprocessor",16384,16384,16384
+"row_sums__one_block_per_row","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",4.675520%,4.696829%,4.684222%
+"row_sums__one_block_per_row","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",7.079279%,7.112275%,7.094058%
+"row_sums__one_block_per_row","stall_memory_dependency","Issue Stall Reasons (Data Request)",75.047411%,75.210511%,75.114347%
+"row_sums__one_block_per_row","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row","stall_sync","Issue Stall Reasons (Synchronization)",6.744295%,6.911400%,6.858929%
+"row_sums__one_block_per_row","stall_other","Issue Stall Reasons (Other)",5.103997%,5.145429%,5.119635%
+"row_sums__one_block_per_row","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.006250%,0.006519%,0.006374%
+"row_sums__one_block_per_row","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.458539%,0.460811%,0.459700%
+"row_sums__one_block_per_row","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.000899%,0.000917%,0.000909%
+"row_sums__one_block_per_row","stall_not_selected","Issue Stall Reasons (Not Selected)",0.660075%,0.663496%,0.661827%
+"row_sums__one_block_per_row","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"row_sums__one_block_per_row","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"row_sums__one_block_per_row","l2_read_transactions","L2 Read Transactions",33658311,33781821,33736188
+"row_sums__one_block_per_row","l2_write_transactions","L2 Write Transactions",16390,16390,16390
+"row_sums__one_block_per_row","ecc_transactions","ECC Transactions",0,0,0
+"row_sums__one_block_per_row","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row","tex_cache_hit_rate","Unified Cache Hit Rate",49.987796%,49.987796%,49.987796%
+"row_sums__one_block_per_row","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",96.875000%,96.893311%,96.878052%
+"row_sums__one_block_per_row","l2_tex_read_throughput","L2 Throughput (Texture Reads)",154.489830GB/s,154.795407GB/s,154.630268GB/s
+"row_sums__one_block_per_row","l2_tex_write_throughput","L2 Throughput (Texture Writes)",77.244914MB/s,77.397703MB/s,77.315133MB/s
+"row_sums__one_block_per_row","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"row_sums__one_block_per_row","l2_tex_write_transactions","L2 Transactions (Texture Writes)",16384,16384,16384
+"row_sums__one_block_per_row","l2_read_throughput","L2 Throughput (Reads)",155.274628GB/s,155.666219GB/s,155.467865GB/s
+"row_sums__one_block_per_row","l2_write_throughput","L2 Throughput (Writes)",77.273202MB/s,77.426047MB/s,77.343447MB/s
+"row_sums__one_block_per_row","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row","sysmem_write_throughput","System Memory Write Throughput",24.138672KB/s,24.186523KB/s,24.160156KB/s
+"row_sums__one_block_per_row","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"row_sums__one_block_per_row","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,512,256
+"row_sums__one_block_per_row","pcie_total_data_received","PCIe Total Data Received",0,512,170
+"row_sums__one_block_per_row","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"row_sums__one_block_per_row","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"row_sums__one_block_per_row","l2_tex_hit_rate","L2 Cache Hit Rate",0.047279%,0.047288%,0.047281%
+"row_sums__one_block_per_row","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"row_sums__one_block_per_row","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"row_sums__one_block_per_row","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",1.444574,1.459180,1.451989
+"row_sums__one_block_per_row","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.774271%,0.786340%,0.780023%
+"row_sums__one_block_per_row","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sm_efficiency","Multiprocessor Activity",99.014209%,99.558282%,99.308299%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","achieved_occupancy","Achieved Occupancy",0.998441,0.998828,0.998670
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","ipc","Executed IPC",1.143670,1.147591,1.145744
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","issued_ipc","Issued IPC",1.143806,1.149412,1.146609
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_per_warp","Instructions per warp",148854.000000,148854.000000,148854.000000
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","branch_efficiency","Branch Efficiency",99.941835%,99.941835%,99.941835%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","warp_execution_efficiency","Warp Execution Efficiency",99.953646%,99.953646%,99.953646%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",92.535069%,92.535072%,92.535071%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_replay_overhead","Instruction Replay Overhead",0.000031,0.000033,0.000032
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","issue_slot_utilization","Issue Slot Utilization",23.461542%,23.576522%,23.519044%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",0.559633,0.559633,0.559633
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",0.377594,0.377594,0.377594
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gst_transactions_per_request","Global Store Transactions Per Request",2.000000,2.000000,2.000000
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","shared_store_transactions","Shared Store Transactions",298112,298112,298112
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","shared_load_transactions","Shared Load Transactions",312320,312320,312320
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_load_transactions","Local Load Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_store_transactions","Local Store Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gst_transactions","Global Store Transactions",2048,2048,2048
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","dram_read_transactions","Device Memory Read Transactions",33721705,33793240,33757373
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","dram_write_transactions","Device Memory Write Transactions",4088,15471,7913
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gld_requested_throughput","Requested Global Load Throughput",160.124128GB/s,160.316066GB/s,160.239274GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gst_requested_throughput","Requested Global Store Throughput",10.007757MB/s,10.019753MB/s,10.014954MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gld_throughput","Global Load Throughput",160.124128GB/s,160.316066GB/s,160.239274GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gst_throughput","Global Store Throughput",10.007757MB/s,10.019753MB/s,10.014954MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","dram_read_throughput","Device Memory Read Throughput",160.922367GB/s,161.401358GB/s,161.208420GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","dram_write_throughput","Device Memory Write Throughput",19.993470MB/s,75.678006MB/s,38.698735MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","tex_cache_throughput","Unified Cache Throughput",160.124128GB/s,160.316066GB/s,160.239274GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","shared_load_throughput","Shared Memory Load Throughput",5.961653GB/s,5.968799GB/s,5.965940GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","shared_store_throughput","Shared Memory Store Throughput",5.690446GB/s,5.697267GB/s,5.694538GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gst_efficiency","Global Memory Store Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","special_fu_utilization","Special Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_sp","Floating Point Operations(Single Precision)",312999936,312999936,312999936
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_sp_add","Floating Point Operations(Single Precision Add)",312999936,312999936,312999936
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_count_sp_special","Floating Point Operations(Single Precision Special)",65536,65536,65536
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed","Instructions Executed",152426496,152426496,152426496
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_issued","Instructions Issued",152431212,152431484,152431365
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","shared_efficiency","Shared Memory Efficiency",5.887634%,5.887634%,5.887634%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_fp_32","FP Instructions(Single)",313065472,313065472,313065472
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_fp_64","FP Instructions(Double)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_integer","Integer Instructions",2901019520,2901019520,2901019520
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_bit_convert","Bit-Convert Instructions",131072,131072,131072
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_control","Control-Flow Instructions",874807296,874807296,874807296
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_compute_ld_st","Load/Store Instructions",294209600,294209600,294209600
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_misc","Misc Instructions",85737472,85737472,85737472
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_inter_thread_communication","Inter-Thread Instructions",44564480,44564480,44564480
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","issue_slots","Issue Slots",125065675,125065882,125065794
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","cf_issued","Issued Control-Flow Instructions",37081088,37081088,37081088
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","cf_executed","Executed Control-Flow Instructions",37081088,37081088,37081088
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","ldst_issued","Issued Load/Store Instructions",37347328,37347328,37347328
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","ldst_executed","Executed Load/Store Instructions",12704768,12704768,12704768
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","atomic_transactions","Atomic Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_shared_loads","Warp level instructions for shared loads",558080,558080,558080
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_global_stores","Warp level instructions for global stores",1024,1024,1024
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_shared_stores","Warp level instructions for shared stores",789504,789504,789504
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","dram_read_bytes","Total bytes read from DRAM to L2 cache",1079094560,1081383680,1080235941
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","dram_write_bytes","Total bytes written from L2 cache to DRAM",130816,495072,253237
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",65536,65536,65536
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","global_store_requests","Total number of global store requests from Multiprocessor",2048,2048,2048
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",2.776054%,2.782548%,2.779837%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",6.552540%,6.563861%,6.558717%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_memory_dependency","Issue Stall Reasons (Data Request)",80.652354%,80.755925%,80.697401%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_sync","Issue Stall Reasons (Synchronization)",5.193731%,5.307721%,5.252071%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_other","Issue Stall Reasons (Other)",3.727815%,3.765921%,3.744710%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.005941%,0.006462%,0.006106%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.362107%,0.362566%,0.362433%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.000012%,0.000012%,0.000012%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","stall_not_selected","Issue Stall Reasons (Not Selected)",0.597509%,0.599210%,0.598713%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_read_transactions","L2 Read Transactions",33697435,33766987,33738602
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_write_transactions","L2 Write Transactions",2054,2054,2054
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","ecc_transactions","ECC Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","tex_cache_hit_rate","Unified Cache Hit Rate",50.000000%,50.000000%,50.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_tex_read_throughput","L2 Throughput (Texture Reads)",160.124128GB/s,160.316066GB/s,160.239274GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_tex_write_throughput","L2 Throughput (Texture Writes)",10.007757MB/s,10.019753MB/s,10.014954MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_tex_write_transactions","L2 Transactions (Texture Writes)",2048,2048,2048
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_read_throughput","L2 Throughput (Reads)",160.879890GB/s,161.303449GB/s,161.118779GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_write_throughput","L2 Throughput (Writes)",10.037077MB/s,10.049109MB/s,10.044294MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_write_throughput","System Memory Write Throughput",25.018555KB/s,25.048828KB/s,25.036133KB/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,512,256
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","pcie_total_data_received","PCIe Total Data Received",0,512,170
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","l2_tex_hit_rate","L2 Cache Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",1.312890,1.318870,1.315903
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.910045%,0.916940%,0.913717%
+"row_sums__one_block_per_chunked_rows__warp_aware__write_buffer","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row__warp_aware","sm_efficiency","Multiprocessor Activity",99.920868%,99.933632%,99.926682%
+"row_sums__one_block_per_row__warp_aware","achieved_occupancy","Achieved Occupancy",0.982067,0.982382,0.982241
+"row_sums__one_block_per_row__warp_aware","ipc","Executed IPC",1.166427,1.186223,1.174495
+"row_sums__one_block_per_row__warp_aware","issued_ipc","Issued IPC",1.161250,1.186884,1.172766
+"row_sums__one_block_per_row__warp_aware","inst_per_warp","Instructions per warp",630.750000,630.750000,630.750000
+"row_sums__one_block_per_row__warp_aware","branch_efficiency","Branch Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row__warp_aware","warp_execution_efficiency","Warp Execution Efficiency",99.942405%,99.942405%,99.942405%
+"row_sums__one_block_per_row__warp_aware","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",93.421770%,93.421770%,93.421770%
+"row_sums__one_block_per_row__warp_aware","inst_replay_overhead","Instruction Replay Overhead",0.000051,0.000053,0.000052
+"row_sums__one_block_per_row__warp_aware","issue_slot_utilization","Issue Slot Utilization",24.184290%,24.718138%,24.424112%
+"row_sums__one_block_per_row__warp_aware","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_row__warp_aware","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_row__warp_aware","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row__warp_aware","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row__warp_aware","gst_transactions_per_request","Global Store Transactions Per Request",0.117647,0.117647,0.117647
+"row_sums__one_block_per_row__warp_aware","shared_store_transactions","Shared Store Transactions",524288,524288,524288
+"row_sums__one_block_per_row__warp_aware","shared_load_transactions","Shared Load Transactions",16384,16384,16384
+"row_sums__one_block_per_row__warp_aware","local_load_transactions","Local Load Transactions",0,0,0
+"row_sums__one_block_per_row__warp_aware","local_store_transactions","Local Store Transactions",0,0,0
+"row_sums__one_block_per_row__warp_aware","gst_transactions","Global Store Transactions",32768,32768,32768
+"row_sums__one_block_per_row__warp_aware","dram_read_transactions","Device Memory Read Transactions",33695408,33819966,33758497
+"row_sums__one_block_per_row__warp_aware","dram_write_transactions","Device Memory Write Transactions",5361,31861,15763
+"row_sums__one_block_per_row__warp_aware","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row__warp_aware","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row__warp_aware","gld_requested_throughput","Requested Global Load Throughput",152.386293GB/s,152.724032GB/s,152.544682GB/s
+"row_sums__one_block_per_row__warp_aware","gst_requested_throughput","Requested Global Store Throughput",19.048286MB/s,19.090504MB/s,19.068085MB/s
+"row_sums__one_block_per_row__warp_aware","gld_throughput","Global Load Throughput",152.386293GB/s,152.724032GB/s,152.544682GB/s
+"row_sums__one_block_per_row__warp_aware","gst_throughput","Global Store Throughput",152.386292MB/s,152.724031MB/s,152.544681MB/s
+"row_sums__one_block_per_row__warp_aware","dram_read_throughput","Device Memory Read Throughput",153.250583GB/s,153.712769GB/s,153.472399GB/s
+"row_sums__one_block_per_row__warp_aware","dram_write_throughput","Device Memory Write Throughput",24.986375MB/s,148.168324MB/s,73.383730MB/s
+"row_sums__one_block_per_row__warp_aware","tex_cache_throughput","Unified Cache Throughput",152.386293GB/s,152.724032GB/s,152.544682GB/s
+"row_sums__one_block_per_row__warp_aware","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row__warp_aware","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row__warp_aware","shared_load_throughput","Shared Memory Load Throughput",304.772586MB/s,305.448063MB/s,305.089362MB/s
+"row_sums__one_block_per_row__warp_aware","shared_store_throughput","Shared Memory Store Throughput",9.524143GB/s,9.545252GB/s,9.534043GB/s
+"row_sums__one_block_per_row__warp_aware","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_row__warp_aware","gst_efficiency","Global Memory Store Efficiency",12.500000%,12.500000%,12.500000%
+"row_sums__one_block_per_row__warp_aware","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"row_sums__one_block_per_row__warp_aware","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row__warp_aware","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row__warp_aware","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row__warp_aware","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row__warp_aware","special_fu_utilization","Special Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row__warp_aware","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (3)","Low (3)","Low (3)"
+"row_sums__one_block_per_row__warp_aware","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"row_sums__one_block_per_row__warp_aware","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"row_sums__one_block_per_row__warp_aware","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"row_sums__one_block_per_row__warp_aware","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"row_sums__one_block_per_row__warp_aware","flop_count_sp","Floating Point Operations(Single Precision)",312999936,312999936,312999936
+"row_sums__one_block_per_row__warp_aware","flop_count_sp_add","Floating Point Operations(Single Precision Add)",312999936,312999936,312999936
+"row_sums__one_block_per_row__warp_aware","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"row_sums__one_block_per_row__warp_aware","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"row_sums__one_block_per_row__warp_aware","flop_count_sp_special","Floating Point Operations(Single Precision Special)",8912896,8912896,8912896
+"row_sums__one_block_per_row__warp_aware","inst_executed","Instructions Executed",165347328,165347328,165347328
+"row_sums__one_block_per_row__warp_aware","inst_issued","Instructions Issued",165355749,165356290,165355913
+"row_sums__one_block_per_row__warp_aware","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"row_sums__one_block_per_row__warp_aware","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row__warp_aware","shared_efficiency","Shared Memory Efficiency",4.545455%,4.545455%,4.545455%
+"row_sums__one_block_per_row__warp_aware","shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row__warp_aware","inst_fp_32","FP Instructions(Single)",321912832,321912832,321912832
+"row_sums__one_block_per_row__warp_aware","inst_fp_64","FP Instructions(Double)",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_integer","Integer Instructions",3286990848,3286990848,3286990848
+"row_sums__one_block_per_row__warp_aware","inst_bit_convert","Bit-Convert Instructions",17825792,17825792,17825792
+"row_sums__one_block_per_row__warp_aware","inst_control","Control-Flow Instructions",840957952,840957952,840957952
+"row_sums__one_block_per_row__warp_aware","inst_compute_ld_st","Load/Store Instructions",277643264,277643264,277643264
+"row_sums__one_block_per_row__warp_aware","inst_misc","Misc Instructions",153157632,153157632,153157632
+"row_sums__one_block_per_row__warp_aware","inst_inter_thread_communication","Inter-Thread Instructions",44564480,44564480,44564480
+"row_sums__one_block_per_row__warp_aware","issue_slots","Issue Slots",137748513,137748970,137748644
+"row_sums__one_block_per_row__warp_aware","cf_issued","Issued Control-Flow Instructions",35504128,35504128,35504128
+"row_sums__one_block_per_row__warp_aware","cf_executed","Executed Control-Flow Instructions",35504128,35504128,35504128
+"row_sums__one_block_per_row__warp_aware","ldst_issued","Issued Load/Store Instructions",36569088,36569088,36569088
+"row_sums__one_block_per_row__warp_aware","ldst_executed","Executed Load/Store Instructions",11911168,11911168,11911168
+"row_sums__one_block_per_row__warp_aware","atomic_transactions","Atomic Transactions",0,0,0
+"row_sums__one_block_per_row__warp_aware","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_row__warp_aware","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"row_sums__one_block_per_row__warp_aware","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_shared_loads","Warp level instructions for shared loads",16384,16384,16384
+"row_sums__one_block_per_row__warp_aware","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_global_stores","Warp level instructions for global stores",278528,278528,278528
+"row_sums__one_block_per_row__warp_aware","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_shared_stores","Warp level instructions for shared stores",524288,524288,524288
+"row_sums__one_block_per_row__warp_aware","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"row_sums__one_block_per_row__warp_aware","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"row_sums__one_block_per_row__warp_aware","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"row_sums__one_block_per_row__warp_aware","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"row_sums__one_block_per_row__warp_aware","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"row_sums__one_block_per_row__warp_aware","dram_read_bytes","Total bytes read from DRAM to L2 cache",1078253056,1082238912,1080271904
+"row_sums__one_block_per_row__warp_aware","dram_write_bytes","Total bytes written from L2 cache to DRAM",171552,1019552,504432
+"row_sums__one_block_per_row__warp_aware","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",1048576,1048576,1048576
+"row_sums__one_block_per_row__warp_aware","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"row_sums__one_block_per_row__warp_aware","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"row_sums__one_block_per_row__warp_aware","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"row_sums__one_block_per_row__warp_aware","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"row_sums__one_block_per_row__warp_aware","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"row_sums__one_block_per_row__warp_aware","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"row_sums__one_block_per_row__warp_aware","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","global_store_requests","Total number of global store requests from Multiprocessor",32768,32768,32768
+"row_sums__one_block_per_row__warp_aware","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_row__warp_aware","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",3.701865%,3.734936%,3.723488%
+"row_sums__one_block_per_row__warp_aware","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",6.457981%,6.515163%,6.496095%
+"row_sums__one_block_per_row__warp_aware","stall_memory_dependency","Issue Stall Reasons (Data Request)",79.969053%,80.150619%,80.074993%
+"row_sums__one_block_per_row__warp_aware","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row__warp_aware","stall_sync","Issue Stall Reasons (Synchronization)",4.745675%,4.967718%,4.842058%
+"row_sums__one_block_per_row__warp_aware","stall_other","Issue Stall Reasons (Other)",3.772955%,3.814406%,3.793009%
+"row_sums__one_block_per_row__warp_aware","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.006530%,0.006934%,0.006733%
+"row_sums__one_block_per_row__warp_aware","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.445503%,0.449157%,0.448029%
+"row_sums__one_block_per_row__warp_aware","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.000745%,0.000755%,0.000750%
+"row_sums__one_block_per_row__warp_aware","stall_not_selected","Issue Stall Reasons (Not Selected)",0.611006%,0.616597%,0.614845%
+"row_sums__one_block_per_row__warp_aware","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"row_sums__one_block_per_row__warp_aware","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"row_sums__one_block_per_row__warp_aware","l2_read_transactions","L2 Read Transactions",33677743,33812525,33742312
+"row_sums__one_block_per_row__warp_aware","l2_write_transactions","L2 Write Transactions",32774,32774,32774
+"row_sums__one_block_per_row__warp_aware","ecc_transactions","ECC Transactions",0,0,0
+"row_sums__one_block_per_row__warp_aware","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row__warp_aware","tex_cache_hit_rate","Unified Cache Hit Rate",49.975598%,49.975598%,49.975598%
+"row_sums__one_block_per_row__warp_aware","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_row__warp_aware","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",98.242188%,98.303223%,98.279826%
+"row_sums__one_block_per_row__warp_aware","l2_tex_read_throughput","L2 Throughput (Texture Reads)",152.386293GB/s,152.724032GB/s,152.544682GB/s
+"row_sums__one_block_per_row__warp_aware","l2_tex_write_throughput","L2 Throughput (Texture Writes)",152.386292MB/s,152.724031MB/s,152.544681MB/s
+"row_sums__one_block_per_row__warp_aware","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"row_sums__one_block_per_row__warp_aware","l2_tex_write_transactions","L2 Transactions (Texture Writes)",32768,32768,32768
+"row_sums__one_block_per_row__warp_aware","l2_read_throughput","L2 Throughput (Reads)",153.284411GB/s,153.562020GB/s,153.398821GB/s
+"row_sums__one_block_per_row__warp_aware","l2_write_throughput","L2 Throughput (Writes)",152.414195MB/s,152.751996MB/s,152.572613MB/s
+"row_sums__one_block_per_row__warp_aware","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row__warp_aware","sysmem_write_throughput","System Memory Write Throughput",23.809570KB/s,23.862305KB/s,23.833984KB/s
+"row_sums__one_block_per_row__warp_aware","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_row__warp_aware","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row__warp_aware","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"row_sums__one_block_per_row__warp_aware","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row__warp_aware","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_row__warp_aware","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_row__warp_aware","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_row__warp_aware","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,512,341
+"row_sums__one_block_per_row__warp_aware","pcie_total_data_received","PCIe Total Data Received",0,512,85
+"row_sums__one_block_per_row__warp_aware","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"row_sums__one_block_per_row__warp_aware","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"row_sums__one_block_per_row__warp_aware","l2_tex_hit_rate","L2 Cache Hit Rate",0.095846%,0.095906%,0.095883%
+"row_sums__one_block_per_row__warp_aware","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"row_sums__one_block_per_row__warp_aware","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"row_sums__one_block_per_row__warp_aware","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",1.340464,1.370231,1.353832
+"row_sums__one_block_per_row__warp_aware","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.865491%,0.874147%,0.869108%
+"row_sums__one_block_per_row__warp_aware","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","sm_efficiency","Multiprocessor Activity",99.208993%,99.652792%,99.412248%
+"row_sums__one_block_per_chunked_rows__warp_aware","achieved_occupancy","Achieved Occupancy",0.998573,0.998813,0.998692
+"row_sums__one_block_per_chunked_rows__warp_aware","ipc","Executed IPC",1.106540,1.109856,1.108037
+"row_sums__one_block_per_chunked_rows__warp_aware","issued_ipc","Issued IPC",1.106193,1.111622,1.108343
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_per_warp","Instructions per warp",144552.000000,144552.000000,144552.000000
+"row_sums__one_block_per_chunked_rows__warp_aware","branch_efficiency","Branch Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","warp_execution_efficiency","Warp Execution Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","warp_nonpred_execution_efficiency","Warp Non-Predicated Execution Efficiency",93.385487%,93.385487%,93.385487%
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_replay_overhead","Instruction Replay Overhead",0.000032,0.000035,0.000033
+"row_sums__one_block_per_chunked_rows__warp_aware","issue_slot_utilization","Issue Slot Utilization",22.591651%,22.702519%,22.635558%
+"row_sums__one_block_per_chunked_rows__warp_aware","shared_load_transactions_per_request","Shared Memory Load Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_chunked_rows__warp_aware","shared_store_transactions_per_request","Shared Memory Store Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_chunked_rows__warp_aware","local_load_transactions_per_request","Local Memory Load Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__warp_aware","local_store_transactions_per_request","Local Memory Store Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__warp_aware","gst_transactions_per_request","Global Store Transactions Per Request",1.000000,1.000000,1.000000
+"row_sums__one_block_per_chunked_rows__warp_aware","shared_store_transactions","Shared Store Transactions",263168,263168,263168
+"row_sums__one_block_per_chunked_rows__warp_aware","shared_load_transactions","Shared Load Transactions",16384,16384,16384
+"row_sums__one_block_per_chunked_rows__warp_aware","local_load_transactions","Local Load Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","local_store_transactions","Local Store Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","gst_transactions","Global Store Transactions",16384,16384,16384
+"row_sums__one_block_per_chunked_rows__warp_aware","dram_read_transactions","Device Memory Read Transactions",33698268,33804714,33747130
+"row_sums__one_block_per_chunked_rows__warp_aware","dram_write_transactions","Device Memory Write Transactions",18359,31684,21537
+"row_sums__one_block_per_chunked_rows__warp_aware","global_hit_rate","Global Hit Rate in unified l1/tex",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","local_hit_rate","Local Hit Rate",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","gld_requested_throughput","Requested Global Load Throughput",159.367096GB/s,159.544621GB/s,159.442792GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","gst_requested_throughput","Requested Global Store Throughput",9.960443MB/s,9.971539MB/s,9.965173MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","gld_throughput","Global Load Throughput",159.367096GB/s,159.544621GB/s,159.442792GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","gst_throughput","Global Store Throughput",79.683547MB/s,79.772310MB/s,79.721395MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","dram_read_throughput","Device Memory Read Throughput",160.173394GB/s,160.593768GB/s,160.358451GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","dram_write_throughput","Device Memory Write Throughput",89.388418MB/s,154.144564MB/s,104.798147MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","tex_cache_throughput","Unified Cache Throughput",159.367096GB/s,159.544621GB/s,159.442792GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","local_load_throughput","Local Memory Load Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware","local_store_throughput","Local Memory Store Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware","shared_load_throughput","Shared Memory Load Throughput",318.734191MB/s,319.089242MB/s,318.885583MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","shared_store_throughput","Shared Memory Store Throughput",4.999676GB/s,5.005245GB/s,5.002050GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","gld_efficiency","Global Memory Load Efficiency",100.000000%,100.000000%,100.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","gst_efficiency","Global Memory Store Efficiency",12.500000%,12.500000%,12.500000%
+"row_sums__one_block_per_chunked_rows__warp_aware","tex_cache_transactions","Unified Cache Transactions",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__warp_aware","cf_fu_utilization","Control-Flow Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware","tex_fu_utilization","Texture Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__warp_aware","ldst_fu_utilization","Load/Store Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware","double_precision_fu_utilization","Double-Precision Function Unit Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_chunked_rows__warp_aware","special_fu_utilization","Special Function Unit Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware","single_precision_fu_utilization","Single-Precision Function Unit Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_dp","Floating Point Operations(Double Precision)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_dp_add","Floating Point Operations(Double Precision Add)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_dp_fma","Floating Point Operations(Double Precision FMA)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_dp_mul","Floating Point Operations(Double Precision Mul)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_sp","Floating Point Operations(Single Precision)",312999936,312999936,312999936
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_sp_add","Floating Point Operations(Single Precision Add)",312999936,312999936,312999936
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_sp_fma","Floating Point Operations(Single Precision FMA)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_sp_mul","Floating Point Operation(Single Precision Mul)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_count_sp_special","Floating Point Operations(Single Precision Special)",65536,65536,65536
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed","Instructions Executed",148021248,148021248,148021248
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_issued","Instructions Issued",148025975,148026401,148026120
+"row_sums__one_block_per_chunked_rows__warp_aware","dram_utilization","Device Memory Utilization","High (8)","High (8)","High (8)"
+"row_sums__one_block_per_chunked_rows__warp_aware","tex_utilization","Unified Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__warp_aware","shared_efficiency","Shared Memory Efficiency",5.872253%,5.872253%,5.872253%
+"row_sums__one_block_per_chunked_rows__warp_aware","shared_utilization","Shared Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_fp_32","FP Instructions(Single)",313065472,313065472,313065472
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_fp_64","FP Instructions(Double)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_integer","Integer Instructions",2868316032,2868316032,2868316032
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_bit_convert","Bit-Convert Instructions",131072,131072,131072
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_control","Control-Flow Instructions",857767936,857767936,857767936
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_compute_ld_st","Load/Store Instructions",277365760,277365760,277365760
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_misc","Misc Instructions",62160896,62160896,62160896
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_inter_thread_communication","Inter-Thread Instructions",44564480,44564480,44564480
+"row_sums__one_block_per_chunked_rows__warp_aware","issue_slots","Issue Slots",120924654,120924991,120924760
+"row_sums__one_block_per_chunked_rows__warp_aware","cf_issued","Issued Control-Flow Instructions",36277248,36277248,36277248
+"row_sums__one_block_per_chunked_rows__warp_aware","cf_executed","Executed Control-Flow Instructions",36277248,36277248,36277248
+"row_sums__one_block_per_chunked_rows__warp_aware","ldst_issued","Issued Load/Store Instructions",35769344,35769344,35769344
+"row_sums__one_block_per_chunked_rows__warp_aware","ldst_executed","Executed Load/Store Instructions",10865664,10865664,10865664
+"row_sums__one_block_per_chunked_rows__warp_aware","atomic_transactions","Atomic Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","atomic_transactions_per_request","Atomic Transactions Per Request",0.000000,0.000000,0.000000
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_global_loads","Warp level instructions for global loads",8388608,8388608,8388608
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_local_loads","Warp level instructions for local loads",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_shared_loads","Warp level instructions for shared loads",16384,16384,16384
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_surface_loads","Warp level instructions for surface loads",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_global_stores","Warp level instructions for global stores",16384,16384,16384
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_local_stores","Warp level instructions for local stores",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_shared_stores","Warp level instructions for shared stores",263168,263168,263168
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_surface_stores","Warp level instructions for surface stores",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_global_atomics","Warp level instructions for global atom and atom cas",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_global_reductions","Warp level instructions for global reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_surface_atomics","Warp level instructions for surface atom and atom cas",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_surface_reductions","Warp level instructions for surface reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_shared_atomics","Warp level shared instructions for atom and atom CAS",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","inst_executed_tex_ops","Warp level instructions for texture",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_global_load_bytes","Bytes read from L2 for misses in Unified Cache for global loads",1073741824,1073741824,1073741824
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_local_load_bytes","Bytes read from L2 for misses in Unified Cache for local loads",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_surface_load_bytes","Bytes read from L2 for misses in Unified Cache for surface loads",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","dram_read_bytes","Total bytes read from DRAM to L2 cache",1078344576,1081750848,1079908181
+"row_sums__one_block_per_chunked_rows__warp_aware","dram_write_bytes","Total bytes written from L2 cache to DRAM",587488,1013888,689205
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_local_global_store_bytes","Bytes written to L2 from Unified Cache for local and global stores.",524288,524288,524288
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_global_reduction_bytes","Bytes written to L2 from Unified cache for global reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_global_atomic_store_bytes","Bytes written to L2 from Unified cache for global atomics",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_surface_store_bytes","Bytes written to L2 from Unified Cache for surface stores.",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_surface_reduction_bytes","Bytes written to L2 from Unified Cache for surface reductions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_surface_atomic_store_bytes","Bytes transferred between Unified Cache and L2 for surface atomics",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","global_load_requests","Total number of global load requests from Multiprocessor",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__warp_aware","local_load_requests","Total number of local load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","surface_load_requests","Total number of surface load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","global_store_requests","Total number of global store requests from Multiprocessor",16384,16384,16384
+"row_sums__one_block_per_chunked_rows__warp_aware","local_store_requests","Total number of local store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","surface_store_requests","Total number of surface store requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","global_atomic_requests","Total number of global atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","global_reduction_requests","Total number of global reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","surface_atomic_requests","Total number of surface atomic requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","surface_reduction_requests","Total number of surface reduction requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","texture_load_requests","Total number of texture Load requests from Multiprocessor",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_inst_fetch","Issue Stall Reasons (Instructions Fetch)",4.319761%,4.337242%,4.327922%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_exec_dependency","Issue Stall Reasons (Execution Dependency)",6.083343%,6.107936%,6.095102%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_memory_dependency","Issue Stall Reasons (Data Request)",80.209009%,80.297873%,80.239305%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_texture","Issue Stall Reasons (Texture)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_sync","Issue Stall Reasons (Synchronization)",4.400187%,4.449902%,4.435831%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_other","Issue Stall Reasons (Other)",4.074507%,4.106125%,4.093169%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_constant_memory_dependency","Issue Stall Reasons (Immediate constant)",0.005905%,0.006534%,0.006202%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_pipe_busy","Issue Stall Reasons (Pipe Busy)",0.321305%,0.322359%,0.321822%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_memory_throttle","Issue Stall Reasons (Memory Throttle)",0.000012%,0.000012%,0.000012%
+"row_sums__one_block_per_chunked_rows__warp_aware","stall_not_selected","Issue Stall Reasons (Not Selected)",0.479746%,0.481966%,0.480634%
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_read_transactions","System Memory Read Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_write_transactions","System Memory Write Transactions",5,5,5
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_read_transactions","L2 Read Transactions",33702767,33816165,33763383
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_write_transactions","L2 Write Transactions",16390,16390,16390
+"row_sums__one_block_per_chunked_rows__warp_aware","ecc_transactions","ECC Transactions",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","local_memory_overhead","Local Memory Overhead",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","tex_cache_hit_rate","Unified Cache Hit Rate",49.987796%,49.987796%,49.987796%
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_tex_read_hit_rate","L2 Hit Rate (Texture Reads)",0.000000%,0.000000%,0.000000%
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_tex_write_hit_rate","L2 Hit Rate (Texture Writes)",0.463867%,0.610352%,0.531006%
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_tex_read_throughput","L2 Throughput (Texture Reads)",159.367096GB/s,159.544621GB/s,159.442792GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_tex_write_throughput","L2 Throughput (Texture Writes)",79.683547MB/s,79.772310MB/s,79.721395MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_tex_read_transactions","L2 Transactions (Texture Reads)",33554432,33554432,33554432
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_tex_write_transactions","L2 Transactions (Texture Writes)",16384,16384,16384
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_read_throughput","L2 Throughput (Reads)",160.109455GB/s,160.661792GB/s,160.435682GB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_write_throughput","L2 Throughput (Writes)",79.712729MB/s,79.801524MB/s,79.750590MB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_read_throughput","System Memory Read Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_write_throughput","System Memory Write Throughput",24.900391KB/s,24.928711KB/s,24.912109KB/s
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_utilization","L2 Cache Utilization","Low (2)","Low (2)","Low (2)"
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_atomic_throughput","L2 Throughput (Atomic requests)",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_atomic_transactions","L2 Transactions (Atomic requests)",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_utilization","System Memory Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware","ecc_throughput","ECC Throughput",0.000000B/s,0.000000B/s,0.000000B/s
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_read_utilization","System Memory Read Utilization","Idle (0)","Idle (0)","Idle (0)"
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_write_utilization","System Memory Write Utilization","Low (1)","Low (1)","Low (1)"
+"row_sums__one_block_per_chunked_rows__warp_aware","pcie_total_data_transmitted","PCIe Total Data Transmitted",0,512,341
+"row_sums__one_block_per_chunked_rows__warp_aware","pcie_total_data_received","PCIe Total Data Received",0,512,85
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_read_bytes","System Memory Read Bytes",0,0,0
+"row_sums__one_block_per_chunked_rows__warp_aware","sysmem_write_bytes","System Memory Write Bytes",160,160,160
+"row_sums__one_block_per_chunked_rows__warp_aware","l2_tex_hit_rate","L2 Cache Hit Rate",0.000226%,0.000298%,0.000259%
+"row_sums__one_block_per_chunked_rows__warp_aware","gld_transactions","Global Load Transactions",134217730,134217730,134217730
+"row_sums__one_block_per_chunked_rows__warp_aware","gld_transactions_per_request","Global Load Transactions Per Request",16.000000,16.000000,16.000000
+"row_sums__one_block_per_chunked_rows__warp_aware","eligible_warps_per_cycle","Eligible Warps Per Active Cycle",1.204658,1.210224,1.206982
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_sp_efficiency","FLOP Efficiency(Peak Single)",0.908344%,0.911262%,0.909487%
+"row_sums__one_block_per_chunked_rows__warp_aware","flop_dp_efficiency","FLOP Efficiency(Peak Double)",0.000000%,0.000000%,0.000000%
